@@ -1,0 +1,383 @@
+.appp{
+  margin-top: 100px;
+}
+.chatapp {
+  display: flex;
+  justify-content: row;
+  width: 100%;
+}
+.main_nav{
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: #424197;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.nav1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 450px;
+  justify-content: space-between;
+}
+.menu li{ 
+  list-style: none;
+  display: flex;
+  
+}
+.lan{
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between !important;
+  
+}
+
+
+
+/* CHATBOX......PERSONNAME */
+.chaticon_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  /* width: 240px; */
+}
+.icon_list ul {
+  display: flex;
+  margin-left: 0px;
+  align-items: center;
+
+  width: 230px;
+
+  margin-left: -30px;
+  margin-top: 30px;
+}
+
+.icon_list li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #424197;
+}
+.icon_message {
+  align-items: center;
+  text-align: center;
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+  width: 150px;
+
+  border-radius: 25px;
+  height: 30px;
+  margin-left: 50px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.button_icons {
+  width: 230px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.button_icons button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+}
+.input_field {
+  /* width: 200px; */
+  border: 03px;
+  padding: 08px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: #dfdff7;
+}
+.iput {
+  background: transparent;
+
+  outline: 0px;
+  width: 170px;
+  border: 0px;
+}
+.imagess {
+  display: flex;
+}
+.image1{
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+.chatimages {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.image_name {
+  margin-left: 5px;
+  margin-top: 08px;
+  font-size: 10px;
+}
+.image_time {
+  font-size: 08px;
+}
+.chatimages1 {
+  margin-top: 0px !important;
+}
+
+/* CHATBOX......CHATING */
+
+.mainchat_container{
+   /* background-color: #ed5b75; */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   /* width: 774px; */
+}
+.offers li {
+  display: flex;
+  font-size: 40px;
+  padding: 20px;
+}
+.offers ul {
+  width: 700px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px !important;
+}
+.offers {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.booking {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.booking button {
+  width: 100px;
+  height: 50px;
+  margin-top: -19px;
+  border-radius: 10px;
+  background-color: #f1bf0b;
+  color: #424197;
+  outline: 0px;
+}
+.chatting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 15px;
+  align-items: center;
+
+  height: 50px;
+}
+
+.chat1 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.chat1 p {
+  background-color: #424197;
+
+  color: #dfdff7;
+
+  padding: 10px;
+  border-radius: 25px 0px 0px 25px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.chat2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.chat2 p {
+  margin-left: 5px;
+
+  padding: 10px;
+  border-radius: 0px 25px 25px 0px;
+  font-size: 15px;
+}
+.files {
+  width: 450px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+.file {
+  display: flex;
+  flex-direction: row;
+}
+.file1 {
+  height: 150px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: #424197;
+  margin-left: 10px;
+}
+
+.sentmsg {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+}
+.innermsg input {
+  width: 610px !important;
+  height: 30px;
+  border: 03px;
+  padding: 08px;
+  border-radius: 30px;
+
+  background-color: #dfdff7;
+}
+.mic {
+  background-color: #424197;
+  border-radius: 100px;
+  color: #dfdff7;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+.emoji {
+  color: #959595;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* AGENT.... */
+.agent{
+   /* background-color: aqua; */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   /* width: 300px; */
+}
+
+.agentprofile {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.marry {
+  margin-top: 0px;
+}
+.life {
+  font-weight: lighter;
+}
+.review {
+  margin-top: -10px;
+  font-weight: lighter;
+}
+.ab2 {
+  margin-top: -17px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.aboutme {
+  width: 200px;
+  border-radius: 30px;
+  margin-left: 25px;
+}
+.contact {
+  background-color: #424197;
+  border-radius: 20px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+}
+.contact ul {
+  margin-top: 5px;
+  margin-left: -35px;
+  color: white;
+}
+.contact li {
+  list-style: none;
+  margin-top: 7px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.agentMedia {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.pic {
+  margin-top: 5px;
+}
+.hi_btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  align-items: center;
+  text-align: center;
+}
+.hifeagency button {
+  width: 180px;
+  height: 30px;
+  background-color: #ed5b75;
+  color: white;
+  border-radius: 15px;
+}
+
+.facility ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  text-align: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-top: 5px;
+}
+.facility li {
+  display: flex;
+
+  list-style: none;
+
+  margin-left: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+@media only screen and (max-width: 1500px) {
+  .main_nav {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .main_nav {
+    width: 100%;
+  }
+}
+
